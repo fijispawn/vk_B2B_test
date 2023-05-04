@@ -1,0 +1,1 @@
+# vk_B2B_test
