@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VK test</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <h1 class="header">Форма бронирования переговорной</h1>
+    <form class="wrapper">
+      <script src="jsonFormater.js"></script>
+      <script src="clear.js"></script>
+      <div class="booking-wrapper">
+        <div class="tower">
+          <p>Выберите башню</p>
+          <select class="selector" name="tower" id="tower-select">
+            <option disabled selected value></option>
+            <option value="a">Башня А</option>
+            <option value="b">Башня Б</option>
+          </select>
+        </div>
+        <div class="floor">
+          <script src="select.js"></script>
+        </div>
+
+        <div class="date-selector">
+          <label for="start">Выберите дату</label>
+          <input class="inputs" type="date" id="start" name="date" />
+          <input class="inputs" type="time" id="appt" name="time" />
+        </div>
+
+        <div>
+          <textarea
+            class="inputs"
+            id="story"
+            name="story"
+            rows="8"
+            cols="35"
+            placeholder="Напишите Ваш комментарий"
+          ></textarea>
+        </div>
+
+        <div>
+          <button class="btn" onclick="clear_inputs()">Очистить</button>
+
+          <button class="btn">Отправить</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

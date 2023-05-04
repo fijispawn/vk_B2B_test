@@ -1,0 +1,68 @@
+* {
+  margin: 10px;
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.booking-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(126, 126, 236);
+  width: 60vh;
+  border-radius: 30px;
+}
+
+.tower {
+  display: flex;
+  font-size: 20px;
+  color: white;
+}
+.floor {
+  display: flex;
+  font-size: 20px;
+  color: white;
+}
+.date-selector {
+  display: flex;
+  font-size: 20px;
+  color: white;
+}
+
+.btn {
+  border-radius: 30px;
+  background: white;
+  font-size: 20px;
+  color: rgb(107, 107, 241);
+}
+.btn:hover {
+  background: rgb(107, 107, 241);
+  transition: 300ms;
+  color: white;
+}
+.inputs {
+  border: 1px solid var(--select-border);
+  border-radius: 0.25em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #f9f9f9, #fff 33%);
+}
+
+.selector{
+  border-radius: 10px;
+    padding: 14px 15px;
+    color:rgb(107, 107, 241);
+}
